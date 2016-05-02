@@ -1,8 +1,9 @@
 h1 {
     text-align: center;
+    font-family: ;
 }
 
-jumbotron {
-    height: 100%;
+.jumbotron {
+    position: relative;
     width: 100%;
 }
