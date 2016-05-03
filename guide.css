@@ -1,6 +1,34 @@
-h1 {
+.animated {
     text-align: center;
-    font-family: ;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: ;
+    position: relative;
+    animation: titleBounce 1.5s ease-out 1s infinite alternate;
+}
+
+@keyframes titleBounce {
+    from { /*start from 0px of the div (h1 or animated)*/
+        bottom: 0px;
+    }
+    to { /*ending point; this will make the title to bounce up and down forever*/
+        bottom: 50px;
+    }
+    0% { /*changes the color of the title constantly from 0% - 100%; similar as a flashing animation*/
+        color: #ffff99;
+    }
+    25% {
+        color: black;
+    }
+    50% {
+        color: #ffff99;
+    }
+    75% {
+        color: black;
+    }
+    100% {
+        color: #ffff99;
+    }
 }
 
 .jumbotron {
