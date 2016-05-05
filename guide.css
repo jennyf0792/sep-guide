@@ -31,6 +31,11 @@
     }
 }
 
+#heading {
+    font-size: 60px;
+    text-align: center;
+}
+
 .jumbotron {
     position: relative;
     width: 100%;
