@@ -34,6 +34,27 @@
     }
 }
 
+li {
+    position: absolute;
+    padding: 20px;
+}
+
+#albert {
+    padding-right: 270px;
+    text-shadow: 1px 1px 0px #4E4D48;
+}
+
+.quote {
+    align-content: center;
+}
+
+.applic {
+    
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+
 h1 {
     text-align: center;
      font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
