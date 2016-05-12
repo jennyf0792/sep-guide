@@ -24,7 +24,7 @@
         color: black;
     }
     50% {
-        color: #;
+        color: #3399FF;
     }
     75% {
         color: black;
@@ -34,9 +34,10 @@
     }
 }
 
-li {
+.tabs {
     position: absolute;
     padding: 20px;
+    font-size: 18px;
 }
 
 #albert {
@@ -46,6 +47,14 @@ li {
 
 .quote {
     align-content: center;
+}
+
+.sidenav-sign {
+    text-align: center;
+}
+
+body {
+    background-color: blue;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
