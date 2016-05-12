@@ -18,13 +18,13 @@
     }
     0% {
         /*changes the color of the title constantly from 0% - 100%; similar as a flashing animation*/
-        color: #ffff99;
+        color: #FF0080;
     }
     25% {
         color: black;
     }
     50% {
-        color: #ffff99;
+        color: #;
     }
     75% {
         color: black;
