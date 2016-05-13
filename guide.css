@@ -34,6 +34,67 @@
     }
 }
 
+.sign-up {
+    text-align: center;
+    width: 230px;
+    height: 140px;
+    position: relative;
+    animation-name: sign-up;
+    animation-duration: sign-up 0s ease-out 4s infinite alternate;
+}
+
+@keyframes sign-up {
+    
+    from {
+        /*start from 0px of the div (h1 or animated)*/
+        bottom: 0px;
+    }
+    to {
+        /*ending point; this will make the title to bounce up and down forever*/
+        bottom: 90px;
+    }
+    
+    0% {
+        color: #BDA9FF;
+    }
+    25% {
+        color: #FF9595;
+    }
+    50% {
+        color: #E2B1E8;
+    }
+    75% {
+        color: #38698C;
+    }
+    100% {
+        color: #DB74BC;
+    }
+    
+    /*0% {*/
+        /*changes the color of the title constantly from 0% - 100%; similar as a flashing animation*/
+    /*    color: #FF0080;*/
+    /*}*/
+    /*25% {*/
+    /*    color: black;*/
+    /*}*/
+    /*50% {*/
+    /*    color: #3399FF;*/
+    /*}*/
+    /*75% {*/
+    /*    color: black;*/
+    /*}*/
+    /*100% {*/
+    /*    color: #ffff99;*/
+    /*}*/
+    
+    /*0%   {color:red; left:0px; top:0px;}*/
+    /*25%  {color:yellow; left:200px; top:0px;}*/
+    /*50%  {color:blue; left:200px; top:200px;}*/
+    /*75%  {color:green; left:0px; top:200px;}*/
+    /*100% {color:red; left:0px; top:0px;}*/
+}
+
+
 .tabs {
     position: absolute;
     padding: 20px;
@@ -45,6 +106,10 @@
     text-shadow: 1px 1px 0px #4E4D48;
 }
 
+.applic {
+    
+}
+
 .quote {
     align-content: center;
 }
@@ -53,8 +118,8 @@
     text-align: center;
 }
 
-body {
-    background-color: blue;
+.body {
+    background-color: #C4988E;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
@@ -69,6 +134,7 @@ h1 {
 .jumbotron {
     position: relative;
     width: 100%;
+    background-color: #BCADD6;
 }
 
 .heading {
