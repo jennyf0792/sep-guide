@@ -18,13 +18,13 @@
     }
     0% {
         /*changes the color of the title constantly from 0% - 100%; similar as a flashing animation*/
-        color: #ffff99;
+        color: #FF0080;
     }
     25% {
         color: black;
     }
     50% {
-        color: #ffff99;
+        color: #3399FF;
     }
     75% {
         color: black;
@@ -34,9 +34,10 @@
     }
 }
 
-li {
+.tabs {
     position: absolute;
     padding: 20px;
+    font-size: 18px;
 }
 
 #albert {
@@ -46,6 +47,14 @@ li {
 
 .quote {
     align-content: center;
+}
+
+.sidenav-sign {
+    text-align: center;
+}
+
+body {
+    background-color: blue;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
