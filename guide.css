@@ -101,13 +101,17 @@
     font-size: 18px;
 }
 
+.navbar {
+    background-color: #152B3D;
+}
+
 #albert {
     padding-right: 270px;
     text-shadow: 1px 1px 0px #4E4D48;
 }
 
 .applic {
-    
+    text-align: center;
 }
 
 .quote {
