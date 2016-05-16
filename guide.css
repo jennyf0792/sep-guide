@@ -99,6 +99,7 @@
     position: absolute;
     padding: 20px;
     font-size: 18px;
+    color: #C4988E;
 }
 
 .navbar {
@@ -147,7 +148,7 @@ h1 {
 }
 
 div {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Montserrat', s;
 }
 
 h3 {
