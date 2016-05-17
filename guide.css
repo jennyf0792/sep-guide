@@ -44,7 +44,6 @@
 }
 
 @keyframes sign-up {
-    
     from {
         /*start from 0px of the div (h1 or animated)*/
         bottom: 0px;
@@ -53,7 +52,6 @@
         /*ending point; this will make the title to bounce up and down forever*/
         bottom: 90px;
     }
-    
     0% {
         color: #BDA9FF;
     }
@@ -69,9 +67,8 @@
     100% {
         color: #DB74BC;
     }
-    
     /*0% {*/
-        /*changes the color of the title constantly from 0% - 100%; similar as a flashing animation*/
+    /*changes the color of the title constantly from 0% - 100%; similar as a flashing animation*/
     /*    color: #FF0080;*/
     /*}*/
     /*25% {*/
@@ -86,14 +83,12 @@
     /*100% {*/
     /*    color: #ffff99;*/
     /*}*/
-    
     /*0%   {color:red; left:0px; top:0px;}*/
     /*25%  {color:yellow; left:200px; top:0px;}*/
     /*50%  {color:blue; left:200px; top:200px;}*/
     /*75%  {color:green; left:0px; top:200px;}*/
     /*100% {color:red; left:0px; top:0px;}*/
 }
-
 
 .tabs {
     position: absolute;
@@ -127,6 +122,15 @@
     background-color: #C4988E;
 }
 
+ul {
+    font-size: 19px;
+}
+
+.carousel-inner {
+    height: 750px;
+    text-align: center;
+}
+
 /*---------------------------------------------------------------------------------------------------------------------------*/
 
 h1 {
@@ -148,7 +152,7 @@ h1 {
 }
 
 div {
-    font-family: 'Montserrat', s;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h3 {
@@ -173,6 +177,6 @@ a:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-p{
+p {
     font-size: 140%;
 }
