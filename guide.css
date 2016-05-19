@@ -131,6 +131,11 @@ ul {
     text-align: center;
 }
 
+.p-border {
+    text-align: center;
+    padding-left: 15px;
+}
+
 /*---------------------------------------------------------------------------------------------------------------------------*/
 
 h1 {
@@ -157,7 +162,7 @@ div {
 
 h3 {
     padding-top: 40px;
-    padding-left: 45px;
+    padding-left: 15px;
 }
 
 navbar-fixed-top {
