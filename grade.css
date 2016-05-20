@@ -1,0 +1,20 @@
+div {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right:45px;
+}
+
+.sec1,
+.col-sm-4,
+.row {
+    background-color: #E4988E;
+}
+
+.sec2, .color {
+    background-color: #ffcccc;
+    
+}
+
+
+/*background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.5))*/
