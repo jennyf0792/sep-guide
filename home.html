@@ -18,6 +18,31 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <title>SEP Guide</title>
+
+  <script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function() {
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      });
+    })
+  </script>
+
 </head>
 
 <body>
@@ -141,80 +166,62 @@
             <img src="code.JPG" alt="robot" width="200" height="200">
           </a>
     </div>
-    <h2><b>Info</b></h2>
+    <br>
+    <div class="container-fluid text-center bg-grey">
 
-    <p>Hello again friend,
-      <br> I hope the trip to the info section wasn't too hard on you. Where did we leave off again? Oh yes, What is Software Engineering.
+      <h2><b>Info</b></h2>
+      <p>Hello again friend,
+        <br> I hope the trip to the info section wasn't too hard on you. Where did we leave off again? Oh yes, What is Software Engineering.
+    </div>
+    
+    <h2><b>Helpful Tips</b></h2>
 
-      <h2><b>Helpful Tips</b></h2>
+    <p>To be one of the best students is not creating an awe-aspiring website or cool design, it's about the skills and techniques to accomplish your mission. Gather all your confidence together and begin from scratch of what you want to create.
+      <ul>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> sketch out and plan what the contents
+        <br>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> ask for advice among your peers or teacher(s)
+        <br>
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> remember, have inspiration but don't copy and paste; learn from the code and apply parts of it on your own
+      </ul>
+    </p>
 
-      <p>To be one of the best students is not creating an awe-aspiring website or cool design, it's about the skills and techniques to accomplish your mission. Gather all your confidence together and begin from scratch of what you want to create.
-        <ul>
-          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> sketch out and plan what the contents
-          <br>
-          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> ask for advice among your peers or teacher(s)
-          <br>
-          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> remember, have inspiration but don't copy and paste; learn from the code and apply parts of it on your own
-        </ul>
-      </p>
-
-      <h2><b>Handy Resources</b></h2>
-      <p>Some handy resources are practically everywhere. For any questions that your peers cannot answer or your teacher is occupied with another student, then Google is your best friend! You can Google anything and find anything to fits the answer to your
-        question(s).
-      </p>
+    <h2><b>Handy Resources</b></h2>
+    <p>Some handy resources are practically everywhere. For any questions that your peers cannot answer or your teacher is occupied with another student, then Google is your best friend! You can Google anything and find anything to fits the answer to your
+      question(s).
+    </p>
 
 
-      <h2><b>Strategies</b></h2>
-      <p> Planning (pseudocode) What is pseudocode? It's writing or creating a picture of your end result before you finish How is it helpful? It gives you an idea of where to start, so you're not lost and can start coding immediately </p>
-      <p>Tinkering What is tinkering Tinkering is getting to know the code from different resources How is it helpful? You start by taking pieces and making small changes to see their effects and Learn to apply it to your own project </p>
+    <h2><b>Strategies</b></h2>
+    <p> Planning (pseudocode) What is pseudocode? It's writing or creating a picture of your end result before you finish How is it helpful? It gives you an idea of where to start, so you're not lost and can start coding immediately </p>
+    <p>Tinkering What is tinkering Tinkering is getting to know the code from different resources How is it helpful? You start by taking pieces and making small changes to see their effects and Learn to apply it to your own project </p>
 
-      <h2><b>Who Are We?</b></h2>
-      <p>We are Juniors, who are proud to call themselves Software Engineers. We are two Jennifer and Jenny. As students we attend Highschool of Telecomunications of Arts and Technology. Being in this program has took quite a turn for both of us. We are
-        students, who are cooperative, persistent, and clever. Striving our ways to accomplish [our] projects is what makes us a great student. It's not the perfection of any project that makes us great, but the quality and amount of effort placed into
-        the work submitted. We give our all to prove we can become better students. We are software engineers, this is who we are.</p>
+    <h2><b>Who Are We?</b></h2>
+    <p>We are Juniors, who are proud to call themselves Software Engineers. We are two Jennifer and Jenny. As students we attend Highschool of Telecomunications of Arts and Technology. Being in this program has took quite a turn for both of us. We are students,
+      who are cooperative, persistent, and clever. Striving our ways to accomplish [our] projects is what makes us a great student. It's not the perfection of any project that makes us great, but the quality and amount of effort placed into the work submitted.
+      We give our all to prove we can become better students. We are software engineers, this is who we are.</p>
 
-      <!-- begin wwww.htmlcommentbox.com -->
-      <div id="HCB_comment_box"><a href="https://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
-      <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-      <script type="text/javascript" id="hcb">
-        /*<!--*/
-        if (!window.hcb_user) {
-          hcb_user = {};
-        }(function() {
-          var s = document.createElement("script"),
-            l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
-            h = "//www.htmlcommentbox.com";
-          s.setAttribute("type", "text/javascript");
-          s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24qbTvZ9X%2FuFzsDnF77UaIv%2F" + "&opts=16862&num=10&ts=1462798086675");
-          if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s);
-        })(); /*-->*/
-      </script>
-      <!-- end www.htmlcommentbox.com -->
+
+
+    <!-- begin wwww.htmlcommentbox.com -->
+    <div id="HCB_comment_box"><a href="https://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+    <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+    <script type="text/javascript" id="hcb">
+      /*<!--*/
+      if (!window.hcb_user) {
+        hcb_user = {};
+      }(function() {
+        var s = document.createElement("script"),
+          l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
+          h = "//www.htmlcommentbox.com";
+        s.setAttribute("type", "text/javascript");
+        s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24qbTvZ9X%2FuFzsDnF77UaIv%2F" + "&opts=16862&num=10&ts=1462798086675");
+        if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s);
+      })(); /*-->*/
+    </script>
+    <!-- end www.htmlcommentbox.com -->
     </p>
   </div>
-  <script>
-    $(document).ready(function() {
-      // Add smooth scrolling to all links in navbar + footer link
-      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 900, function() {
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      });
-    })
-  </script>
   <footer class="container-fluid text-center">
     <a href="#myPage" title="To Top">
       <span class="glyphicon glyphicon-chevron-up"></span>
