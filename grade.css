@@ -1,4 +1,4 @@
-div {
+.sec1,.sec2, .row, .color {
     padding-top: 15px;
     padding-bottom: 25px;
     padding-left: 45px;
@@ -15,6 +15,8 @@ div {
     background-color: #ffcccc;
     
 }
-
+blockquote {
+    background-color: #E4988E;
+}
 
 /*background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.5))*/
