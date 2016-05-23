@@ -77,12 +77,36 @@
     border-color: transparen;
 }*/
 
+.pure-button {
+    display: inline-block;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Righteous";
+    font-size: 100%;
+    padding: .2em 1em;
+    color: white;
+    background: rgb(28, 184, 65);
+    border: 3px solid ;
+    border-radius: 15px;
+    transition: transform 1s;
+}
+
+.pure-button:hover {
+    transform: rotateY(360deg); /*once cursor hovered, the button will do a 360 flip*/
+    width: 200px; /*set the size of the button to shift once hovered*/
+    display: inline-block; /*excludes any outside text to interfere with the button*/
+    position: relative; 
+}
+
 .backgr {
     padding: 100px 25px;
 }
 
 #signlink {
-    text-align: center
+    text-align: center;
 }
 
 .tabs {
@@ -115,6 +139,10 @@
 
 ul {
     font-size: 19px;
+}
+
+footer {
+    background-color: #d3d3d3;
 }
 
 .greyback {
