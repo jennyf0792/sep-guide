@@ -17,6 +17,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--custom css-->
+  <link rel="stylesheet" href="custom.css">
   <title>SEP Guide</title>
 
   <script>
@@ -53,13 +55,15 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <img style="max-width:190px; padding:15px;" src="hstatSep-logo-small.png">
         </div>
+        <!--collapse navbar-->
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="tabs"><a href="home.html">Home</a></li>
@@ -151,11 +155,12 @@
   </div>
 
   <div class="container-fluid, body">
-    <h1 id="heading"><b>Home</b></h1>
-    <p>Hello Current Reader,
-      <br> I'm so happy that you've stumbled upon this page. If you're curious about technology than this is the place to be! This page is dedicated to the wonders of Software Enginnering. You may be wondering...<span style="color:red">What is Software Engineering?"</span>      If thats the case, then you should be heading toward our info section. For a quick and easy path, click "Info" on our nav bar above!
-    </p>
-
+    <div class="backgr">
+      <h1 id="heading"><b>Home</b></h1>
+      <p>Hello Current Reader,
+        <br> I'm so happy that you've stumbled upon this page. If you're curious about technology than this is the place to be! This page is dedicated to the wonders of Software Enginnering. You may be wondering...<span style="color:red">What is Software Engineering?"</span>        If thats the case, then you should be heading toward our info section. For a quick and easy path, click "Info" on our nav bar above!
+      </p>
+    </div>
     <div>
       <a class="pic" target="_blank" href="9thgrade.html">
         <img src="robots.JPG" alt="robot" width="200" height="200">
@@ -166,40 +171,67 @@
           </a>
     </div>
     <br>
-    <div class="container-fluid text-center bg-grey">
-
-      <h2><b>Info</b></h2>
-      <p>Hello again friend,
-        <br> I hope the trip to the info section wasn't too hard on you. Where did we leave off again? Oh yes, What is Software Engineering.
+    <div class="container text-center bg-grey">
+      <div class="backgr">
+        <h2><b>Info</b></h2>
+        <p>Hello again friend,
+          <br> I hope the trip to the info section wasn't too hard on you. Where did we leave off again? Oh yes, What is Software Engineering. A software engineer is a licensed professional engineer who is schooled and skilled in the application of engineering
+          discipline to the creation of software. A software engineer is often confused with a programmer, but the two are vastly different disciplines.
+      </div>
     </div>
-    
-    <h2><b>Helpful Tips</b></h2>
 
-    <p>To be one of the best students is not creating an awe-aspiring website or cool design, it's about the skills and techniques to accomplish your mission. Gather all your confidence together and begin from scratch of what you want to create.
-      <ul>
-        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> sketch out and plan what the contents
-        <br>
-        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> ask for advice among your peers or teacher(s)
-        <br>
-        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> remember, have inspiration but don't copy and paste; learn from the code and apply parts of it on your own
-      </ul>
-    </p>
+    <div class="container">
+      <div class="backgr">
+        <div class="row">
+          <h2><b>Helpful Tips</b></h2>
+          <div class="col-sm-4">
+            <p>To be one of the best students is not creating an awe-aspiring website or cool design, it's about the skills and techniques to accomplish your mission. Gather all your confidence together and begin from scratch of what you want to create.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <ul>
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span> sketch out and plan what the contents
+              <br>
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span> ask for advice among your peers or teacher(s)
+              <br>
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span> remember, have inspiration but don't copy and paste; learn from the code and apply parts of it on your own
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <p>Hopefully, you're able to learn great new things along the way of your tough journey. Feel free to send us emails about more advices that you'd like to officially put up on the website! Thank you! Continue being persisent and awesome.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <h2><b>Handy Resources</b></h2>
-    <p>Some handy resources are practically everywhere. For any questions that your peers cannot answer or your teacher is occupied with another student, then Google is your best friend! You can Google anything and find anything to fits the answer to your
-      question(s).
-    </p>
+    <div class="backgr">
+      <div class="container">
+        <h2><b>Handy Resources</b></h2>
+        <p>Some handy resources are practically everywhere. For any questions that your peers cannot answer or your teacher is occupied with another student, then Google is your best friend! You can Google anything and find anything to fits the answer to
+          your question(s).
+        </p>
+      </div>
+    </div>
 
+    <div class="backgr">
+      <div class="container">
+        <h2><b>Strategies</b></h2>
+        <p><span style="color:red"> Planning (pseudocode)</span>, What is pseudocode? It's writing or creating a picture of your end result before you finish How is it helpful? It gives you an idea of where to start, so you're not lost and can start coding
+          immediately
+        </p>
+        <p><span style="color: red">Tinkering</span>, What is tinkering Tinkering is getting to know the code from different resources How is it helpful? You start by taking pieces and making small changes to see their effects and Learn to apply it to your
+          own project </p>
+      </div>
+    </div>
 
-    <h2><b>Strategies</b></h2>
-    <p> Planning (pseudocode) What is pseudocode? It's writing or creating a picture of your end result before you finish How is it helpful? It gives you an idea of where to start, so you're not lost and can start coding immediately </p>
-    <p>Tinkering What is tinkering Tinkering is getting to know the code from different resources How is it helpful? You start by taking pieces and making small changes to see their effects and Learn to apply it to your own project </p>
-
-    <h2><b>Who Are We?</b></h2>
-    <p>We are Juniors, who are proud to call themselves Software Engineers. We are two Jennifer and Jenny. As students we attend Highschool of Telecomunications of Arts and Technology. Being in this program has took quite a turn for both of us. We are students,
-      who are cooperative, persistent, and clever. Striving our ways to accomplish [our] projects is what makes us a great student. It's not the perfection of any project that makes us great, but the quality and amount of effort placed into the work submitted.
-      We give our all to prove we can become better students. We are software engineers, this is who we are.</p>
-
+    <div class="backgr">
+      <div class="container">
+        <h2><b>Who Are We?</b></h2>
+        <p>We are Juniors, who are proud to call themselves Software Engineers. We are two Jennifer and Jenny. As students we attend Highschool of Telecomunications of Arts and Technology. Being in this program has took quite a turn for both of us. We are
+          students, who are cooperative, persistent, and clever. Striving our ways to accomplish [our] projects is what makes us a great student. It's not the perfection of any project that makes us great, but the quality and amount of effort placed into
+          the work submitted. We give our all to prove we can become better students. We are software engineers, this is who we are.</p>
+      </div>
+    </div>
 
 
     <!-- begin wwww.htmlcommentbox.com -->

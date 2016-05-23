@@ -4,7 +4,7 @@
     letter-spacing: 5px;
     text-shadow: 1px;
     position: relative;
-    animation: titleBounce 1.5s ease-out 1s infinite alternate;
+    animation: titleBounce 1s ease-out 1s infinite alternate;
 }
 
 @keyframes titleBounce {
@@ -14,7 +14,7 @@
     }
     to {
         /*ending point; this will make the title to bounce up and down forever*/
-        bottom: 50px;
+        bottom: 60px;
     }
     0% {
         /*changes the color of the title constantly from 0% - 100%; similar as a flashing animation*/
@@ -67,6 +67,10 @@
     100% {
         color: #DB74BC;
     }
+}
+
+.backgr {
+    padding: 100px 25px;
 }
 
 .tabs {
