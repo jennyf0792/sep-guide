@@ -101,6 +101,8 @@
     position: relative; 
 }
 
+
+
 .backgr {
     padding: 100px 25px;
 }
@@ -135,6 +137,7 @@
 .body {
     background-color: #C4988E;
     text-align: center;
+    position: relative;
 }
 
 ul {
@@ -189,6 +192,7 @@ h1 {
     position: relative;
     background-color: #BCADD6;
     padding: 100px 40px;
+    background-image: url();
 }
 
 .heading {
