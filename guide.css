@@ -69,6 +69,14 @@
     }
 }
 
+.navbar-nav li a:hover {
+    color: #c4988e !important;
+}
+
+/*.navbar-default {
+    border-color: transparen;
+}*/
+
 .backgr {
     padding: 100px 25px;
 }
@@ -119,11 +127,23 @@ ul {
     padding-left: 15px;
 }
 
+.click-me {
+    padding: 50px 25px;
+}
+
 #advertisements {
     text-align: center;
     letter-spacing: 5px;
     padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 40px;
+}
+
+#click {
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 5px black;
+    padding-bottom: 40px;
 }
 
 h1 {

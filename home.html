@@ -44,10 +44,10 @@
       });
     })
   </script>
-
 </head>
 
-<body>
+<body id="sep-guide" data-spy="scroll" data-target=".navbar" data-offset="50">
+  
   <br>
   <br>
   <div class="container, body">
@@ -146,13 +146,13 @@
 
   <div class="container, greyback">
     <div class="backgr">
-    <h3 id="advertisements">Advertisements</h3>
-    <!-- start of sign up and login tab-->
+      <h3 id="advertisements">Advertisements</h3>
+      <!-- start of sign up and login tab-->
       <a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
       <a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-    <p class="p-border">
-      <br> Please sign up for our website! We would love take any new accounts because we love serving you young engineers with great advice.
-    </p>
+      <p class="p-border">
+        <br> Please sign up for our website! We would love take any new accounts because we love serving you young engineers with great advice.
+      </p>
     </div>
   </div>
 
@@ -160,25 +160,40 @@
     <div class="backgr">
       <h1 id="heading"><b>Home</b></h1>
       <p>Hello Current Reader,
-        <br> I'm so happy that you've stumbled upon this page. If you're curious about technology than this is the place to be! This page is dedicated to the wonders of Software Enginnering. You may be wondering...<span style="color:red">What is Software Engineering?"</span>        If thats the case, then you should be heading toward our info section. For a quick and easy path, click "Info" on our nav bar above!
+        <br> I'm so happy that you've stumbled upon this page. If you're curious about technology than this is the place to be! This page is dedicated to the wonders of Software Enginnering. You may be wondering...<span style="color:red">What is Software Engineering?"</span> If thats the case, then you should be heading toward our info section. For a quick and easy path, click "Info" on our nav bar above!
       </p>
-    </div>
-    <div>
-      <a class="pic" target="_blank" href="9thgrade.html">
-        <img src="robots.JPG" alt="robot" width="200" height="200">
-        <a class="pic" target="_blank" href="10thgrade.html">
-          <img src="arduino.JPG" alt="robot" width="200" height="200">
-          <a class="pic" target="_blank" href="11thgrade.html">
-            <img src="code.JPG" alt="robot" width="200" height="200">
+      <!--align the pictures with links attached-->
+      <div class="container text-center, click-me">
+      <h3 id="click"><strong>Click on me!</strong></h3>
+      <div class="row">
+        <div class="col-sm-4">
+          <a class="pic" target="_blank" href="9thgrade.html">
+            <img src="robots.JPG" class="img-circle" alt="robot" width="200" height="200">
           </a>
+        </div>
+        <div class="col-sm-4">
+          <a class="pic" target="_blank" href="10thgrade.html">
+            <img src="arduino.JPG" class="img-circle" alt="robot" width="200" height="200">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a class="pic" target="_blank" href="11thgrade.html">
+            <img src="code.JPG" class="img-circle" alt="robot" width="200" height="200">
+          </a>
+        </div>
+      </div>
+    </div>
+      
     </div>
     <br>
     <div class="container, greyback">
       <div class="backgr">
+        <div id="info" class="container">
         <h2><b>Info</b></h2>
         <p>Hello again friend,
           <br> I hope the trip to the info section wasn't too hard on you. Where did we leave off again? Oh yes, What is Software Engineering. A software engineer is a licensed professional engineer who is schooled and skilled in the application of engineering
           discipline to the creation of software. A software engineer is often confused with a programmer, but the two are vastly different disciplines.
+          </div>
       </div>
     </div>
 
@@ -235,24 +250,24 @@
       </div>
     </div>
 
-<div class="container">
-    <!-- begin wwww.htmlcommentbox.com -->
-    <div id="HCB_comment_box"><a href="https://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
-    <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-    <script type="text/javascript" id="hcb">
-      /*<!--*/
-      if (!window.hcb_user) {
-        hcb_user = {};
-      }(function() {
-        var s = document.createElement("script"),
-          l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
-          h = "//www.htmlcommentbox.com";
-        s.setAttribute("type", "text/javascript");
-        s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24qbTvZ9X%2FuFzsDnF77UaIv%2F" + "&opts=16862&num=10&ts=1462798086675");
-        if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s);
-      })(); /*-->*/
-    </script>
-    <!-- end www.htmlcommentbox.com -->
+    <div class="container">
+      <!-- begin wwww.htmlcommentbox.com -->
+      <div id="HCB_comment_box"><a href="https://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+      <script type="text/javascript" id="hcb">
+        /*<!--*/
+        if (!window.hcb_user) {
+          hcb_user = {};
+        }(function() {
+          var s = document.createElement("script"),
+            l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
+            h = "//www.htmlcommentbox.com";
+          s.setAttribute("type", "text/javascript");
+          s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24qbTvZ9X%2FuFzsDnF77UaIv%2F" + "&opts=16862&num=10&ts=1462798086675");
+          if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s);
+        })(); /*-->*/
+      </script>
+      <!-- end www.htmlcommentbox.com -->
     </div>
     </p>
   </div>
