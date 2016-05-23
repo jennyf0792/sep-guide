@@ -88,10 +88,6 @@
     text-shadow: 1px 1px 0px #4E4D48;
 }
 
-.applic {
-    text-align: center;
-}
-
 .quote {
     align-content: center;
 }
@@ -107,6 +103,10 @@
 
 ul {
     font-size: 19px;
+}
+
+.greyback {
+    background-color: #d3d3d3;
 }
 
 .carousel-inner {
