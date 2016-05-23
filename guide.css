@@ -81,6 +81,10 @@
     padding: 100px 25px;
 }
 
+#signlink {
+    text-align: center
+}
+
 .tabs {
     position: absolute;
     padding: 20px;
